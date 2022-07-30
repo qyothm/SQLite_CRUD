@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePageScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('www.com'),
+        title: const Text('Journal'),
       ),
       body: _isLoading
           ? const Center(
